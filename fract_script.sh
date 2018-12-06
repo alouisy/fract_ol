@@ -1,0 +1,1 @@
+gcc -O3 -march=native -Werror -Wall -Wextra -o fractol  main.c hooks.c gfx.c -I. -I libft/includes/. -I minilibx_macos/. -L minilibx_macos/ -lmlx -L libft/ -lft -lm -framework OpenGL -framework AppKit
